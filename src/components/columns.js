@@ -1,4 +1,5 @@
 import { format } from "date-fns";
+
 // import { ColumnFilter } from "./ColumnFilter";
 
 export const COLUMNS = [
@@ -11,6 +12,7 @@ export const COLUMNS = [
     // Filter: ColumnFilter,
     disableFilters: true,
     sticky: "left",
+
   },
   {
     Header: "First Name",
@@ -42,6 +44,7 @@ export const COLUMNS = [
     Footer: "Phone",
     accessor: "phone",
   },
+
   {
     Header: "Email",
     Footer: "Email",
@@ -52,6 +55,8 @@ export const COLUMNS = [
     Footer: "Age",
     accessor: "age",
   },
+
+
 ];
 
 // export const GROUPED_COLUMNS = [
